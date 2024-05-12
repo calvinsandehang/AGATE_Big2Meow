@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/TouchtenBigMeow2/Scenes/SplashScreen.unity
+    guid: d554d95d8a5d720418f8813d50f56265
+  - enabled: 1
+    path: Assets/TouchtenBigMeow2/Scenes/MainMenu.unity
+    guid: a3467ade1a1117c44919eb1bd9264afd
+  - enabled: 1
+    path: Assets/TouchtenBigMeow2/Scenes/BigMeow2.unity
+    guid: fd6fb7883ecff0b4ab128aa7ef71100f
   m_configObjects: {}
