@@ -6830,6 +6830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1756665790}
   - component: {fileID: 1756665789}
+  - component: {fileID: 1756665791}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -6867,6 +6868,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1756665791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756665787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
 --- !u!1 &1780070894
 GameObject:
   m_ObjectHideFlags: 0
@@ -7634,7 +7655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerPrefab: {fileID: 2972835322702556544, guid: 614bb5fadbf330a4aa51edc942a672c9, type: 3}
   _playerParent: {fileID: 1602986292}
-  _deckType: 1
+  _deckType: 0
   _normalDeck: {fileID: 11400000, guid: d961765c7f1bf924ab72ed7a393bde5d, type: 2}
   _testDeck: {fileID: 11400000, guid: 19d8ccf3d27ba724ea0b0b58f7fb7af8, type: 2}
   _playerNumber: 4
